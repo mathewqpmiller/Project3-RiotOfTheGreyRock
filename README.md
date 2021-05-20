@@ -1,4 +1,4 @@
-# Project3-RiotOfTheGreyRock
+# Project3: Riot Of The Grey Rock
 
 ## Machine Learning Group Project
 
