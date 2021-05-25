@@ -5,7 +5,19 @@
 For this project we had to idendify a real world problem that needed to be solved. In order to do this we had to analyze a problem using Machine Learning, along with another Machine Learning library, and create some predictions based on our deep dive of the exhisting data. Once we came up with a solution to the problem we then had to create visualizations that explained our final analysis and that could be published on Tableau Public server. 
 
 ### Task 1: Identify Real World Problem
-* Find a real world problem and an associated dataset
+For this section of the project, the teammembers met on Zoom to discuss a project proposal to do an analysis on. Each teammember presented topics to the group such as mushroom species, home loan predictions, Honeybee Colonization vs Pesticide use, AirBNB rentals and UBER user retention. After presenting each of our ideas to one another, we decided to do an analysis on Honeybee Colonization. We chose to do Honeybee Colonization vs Neonic Pesticide use because we thought topic was interesting and the dataset was fairly complete. Some of the things that we discussed analyzing and visualizing were. 
+* Read Dataset into Jupyter Notebook
+* Clean dataset: remove nulls, rename columns
+* (ETL) Hawaii missing pesticide data
+* Identify potential features that can be created by combining from raw datasets
+* Identifing and run models that work with our dataset
+* Compare models by success rate
+* Assess modeled predictions with dummy data
+* Do final visualizations in Tabluea compared to predictive models
+
+Neonic pesticide affects on HoneyBee colonies within the US
+
+DATA LINK: https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide?select=vHoneyNeonic_v03.csv
 
 ### Task 2: Solve Problem with Machine Learning
 * Solve the problem by making predictions
