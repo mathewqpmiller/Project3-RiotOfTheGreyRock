@@ -1,0 +1,6 @@
+﻿Model,Version,Training,Testing
+Logistic Regression,One,0.604477612,0.607142857
+Logistic Regression,Two,0.597014925,0.558035714
+Logistic Regression,Three,0.644776119,0.651785714
+Logistic Regression,Four,0.641791045,0.665178571
+Logistic Regression,Five,0.585074627,0.575892857
