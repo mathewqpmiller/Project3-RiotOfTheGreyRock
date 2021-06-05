@@ -13,7 +13,7 @@ For this section of the project, the teammembers met on Zoom and discuss a proje
 * Identifing and run models that work with our dataset
 * Compare models by success rate
 * Assess modeled predictions with dummy data
-* Do final visualizations in Tabluea compared to predictive models
+* Do final visualizations in Tableau compared to predictive models
 
 Neonic pesticide affects on HoneyBee colonies within the US
 
@@ -21,6 +21,7 @@ DATA LINK: https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide?select=
 
 ### Task 2: Solve Problem with Machine Learning
 * Solve the problem by making predictions
+The predictions this group was interested in was based on pesticides vs Gowth Outcome. 
 * Use Machine Learing
 * Use Scikit-Learn and/or another Machine Learing library
 * Incorporate two of the following: Python Pandas, Python Matplotlib, HTML/CSS/Bootstrap, JavaScript Plotly, JavaScript D3.js, JavaScript Leaflet, SQL Database, MongoDB Database, Google Cloud SQL, Amazon AWS or Tableau
@@ -44,7 +45,7 @@ DATA LINK: https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide?select=
 ### References:
 * Kevin Smith 2018, Honeybees and Neonic Pesticides, Kaggle, viewed 24 May 2021, <https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide?select=vHoneyNeonic_v03.csv>
 * Census.gov, Geographies, 2018 FIPS Codes, viewed 25 May 2021, <https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html>. 
-
+* Sofija Simic 2020, How to Install NumPy, Phoenixnap, viewed 05 June 2021, <https://phoenixnap.com/kb/install-numpy>
 #
 #
 <p align="center">
