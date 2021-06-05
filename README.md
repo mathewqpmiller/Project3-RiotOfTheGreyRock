@@ -44,7 +44,7 @@ DATA LINK: https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide?select=
 ### References:
 * Kevin Smith 2018, Honeybees and Neonic Pesticides, Kaggle, viewed 24 May 2021, <https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide?select=vHoneyNeonic_v03.csv>
 * Census.gov, Geographies, 2018 FIPS Codes, viewed 25 May 2021, <https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html>. 
-
+* Sofija Simic 2020, How to Install NumPy, Phoenixnap, viewed 05 June 2021, <https://phoenixnap.com/kb/install-numpy>
 #
 #
 <p align="center">
