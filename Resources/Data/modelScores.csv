@@ -4,13 +4,13 @@ Logistic Regression,Two,0.616989568,0.616071429
 Logistic Regression,Three,0.660208644,0.611607143
 Logistic Regression,Four,0.649776453,0.620535714
 Logistic Regression,Five,0.60804769,0.616071429
-Neural Network,One,,
-Neural Network,Two,,
-Neural Network,Three,,
-Neural Network,Four,,
-Neural Network,Five,,
 SVC,One,0.671,0.661
 SVC,Two,0.671,0.656
 SVC,Three,0.668,0.625
 SVC,Four,0.657,0.616
 SVC,Five,0.677,0.625
+Neural Network,One,,0.64286
+Neural Network,Two,,0.67411
+Neural Network,Three,,0.66964
+Neural Network,Four,,0.65179
+Neural Network,Five,,0.67411
