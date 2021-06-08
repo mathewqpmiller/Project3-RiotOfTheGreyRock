@@ -1,24 +1,51 @@
-## Package installation requirements
-In order to successfully run the models in this project you will need the following python libraries installed. In order to install the libraries you will need to have either pip or brew installed on you computer. 
-* for PC use pip install
-  * If pip is not already installed on your operating system, you will need to do that first. You will need to install the package handler that corresponds to the version of Python you are running. If you have both versions of Python, install both Pip versions as well.
-  * Python 2: ( sudo apt install python-pip ) 
-  * Python 3: ( sudo apt install python3-pip )
-* for macOS use brew install
-  * You will need to download and install homebrew from the homebrew website. If you do not already have xcode installed on your computer, you will need to download and install that first.
-  * https://brew.sh
-
-
-### Packages
-Open up a terminal in GitBash, VSCode or Atom and run the following commands. These are the python packages needed to run all of the Machine Learning models that were built as a part of this project.
-* OS - This package comes installed with python
-* Numpy - pip install numpy
-* Matplotlib - pip install matplotlib
-* Pandas - pip install pandas
-* Scipy - pip install scipy
-* Sklearn - pip install -U scikit-learn
-* Seaborn - pip install seaborninstall -U scikit-learn
-* Keras - pip install keras
-* Tensorflow - pip install tensorflow
-
-
+absl-py==0.12.0
+astunparse==1.6.3
+cached-property==1.5.2
+cachetools==4.2.2
+certifi==2021.5.30
+chardet==4.0.0
+dataclasses==0.8
+flatbuffers==1.12
+gast==0.4.0
+google-auth==1.30.1
+google-auth-oauthlib==0.4.4
+google-pasta==0.2.0
+grpcio==1.34.1
+h5py==3.1.0
+idna==2.10
+importlib-metadata==4.5.0
+joblib==1.0.1
+keras-nightly==2.5.0.dev2021032900
+Keras-Preprocessing==1.1.2
+Markdown==3.3.4
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy==1.19.5
+oauthlib==3.1.1
+opt-einsum==3.3.0
+pandas @ file:///C:/ci/pandas_1608056614942/work
+protobuf==3.17.2
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+requests==2.25.1
+requests-oauthlib==1.3.0
+rsa==4.7.2
+scikit-learn==0.24.2
+scipy==1.5.4
+six @ file:///C:/ci/six_1605187303045/work
+tensorboard==2.5.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.5.0
+tensorflow-estimator==2.5.0
+termcolor==1.1.0
+threadpoolctl==2.1.0
+typing-extensions==3.7.4.3
+urllib3==1.26.5
+Werkzeug==2.0.1
+wincertstore==0.2
+wrapt==1.12.1
+zipp==3.4.1
