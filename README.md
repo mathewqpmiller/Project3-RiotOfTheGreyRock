@@ -16,25 +16,31 @@ To replicate this project, you will need to have the programs and packages as we
 DATA LINK: https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide?select=vHoneyNeonic_v03.csv
 * Using Excel, create two additional fields: Colony Growth and Colony Outcome. (Note to future selves: figure out how to do this in Python for the purposes of skipping this step and excluding Excel as a required software). Colony growth is the rate of change per number of colonies based on state and year.  Growth outcome is a binary field based on colony growth.  (0 for growth loss or no growth, 1 for growth increase.) For an example, see the vHoneyNeonic_v03_with_growth.xlsx file included in this repo.
 * Set up a new conda environment using reqirements.txt.  Then activate to start running the process.
-* Clean the modified dataset using the DatasetMigratinoandCleanup file.  
-* Apply the logistic_regression, MathewsSVCModel, and randomForestClassifereModel to produce machine learning results on the test and train variability of the Colony Outcome field.
+* Clean the modified dataset using the DatasetCleanup file.  This will produce the working data set.
+* Apply the logisticRegression, SVCModel, and randomForestClassifierModel, and neuralNetworkModel to produce machine learning results on the test and train variability of the Colony Outcome field.
 * Run the Tableau workbook to re-produce initial data investigation and final report.
 
 ### Challenges:
 * In raw data, all pesticides were in kilograms instead of pounds.  It was decided to leave as kilograms for the purposes of machine learning as this was consistent across the pesticides and removed a type conversion. However, in the graphical presentation, a conversion was applied to the pesticides to transform into pounds for the purposes of comparing honey prodution vs pesticide application.
-* In the logisitic regression model, the first pesticide (scenario) an error reflecting a scalar rquirement occured with the first pesticide (scenario) but not with the remaining pesticides. The warning error was a bit misleading to researching what the solution was. Rabbit hole ensued. The resolution was to apply and increase max iterations to eliminate warnings and errors.
-
-### Remove this? * It was discovered in the neural network model that the only pesticide that were applied outside of a combination of other pesticides was ImidaclopridLB (pesticide 2).  Therefore applying filters to create the different scenarios ended with no records for all but ImidaclopridLB.  Instead the scenarios were created by elimintating pesticide fields that were not applicable to the specific scenario.
+* In the logisitic regression model, the first scenario reflected an error of a scalar requirement, but not with the remaining scenarios. The warning error was a bit misleading to researching what the solution was. Rabbit hole ensued. The resolution was to apply and increase max iterations to eliminate warnings and errors.
+* A inclination to look into the affects of each individual pesticide proved challeging as there was only one pesticide that was applied outside of a combination of other pesticides. This was ImidaclopridLB (pesticide 2).  Therefore applying filters to create the different scenarios ended with no records for all but ImidaclopridLB.  Instead the scenarios could be created by elimintating pesticide fields that were not applicable to the specific scenario. This would be something to research in the future.
 
 ### Conclusion:
-* This to be updated once the Tableau workbook and final presentation is finalized
+* Five scenarios were used in the four models: 
+1. All fields included
+2. Top five predictors in the random forest with grid search: ProductionValue, TotalProduction, ImidaclopridLB, Stocks, PricePerLB 
+3. Just the individual pesticides: Clothianidin, Imidacloprid, Thiamethoxam, Acetamiprid, Thiaclolprid
+4. Just the pesticides combined: CombinedNeonic
+5. Exclude the pesticides: ColonyCount, TotalProduction, YieldPerColony, PricePerLB, ProductionValue, Stocks
 
+* Outside of standard data cleaning and collaboration challenges, the anticipated results were that an increase in pesticide usage would contribute to colony collapse.  (e.g. correlation between pesticide application and decrease in colony growth.) Instead, no obvious correlation was found.  The neural network with scenarios two and five provided the best predictive results, though those results were exactly the same, which is suspecious.  Further review of the neural nework coding is in order.
+
+* Given more time, there are updates and interests.  These include translating the Excel data cleanup in Python and simplifying some of the coding.  Additionally, time studies across the nation and each state might lead to better indicators of correlation between pesticide and colony decrease or increase.  Other datasets might be brough in such as weather or temperature patterns, wildflower or plant populations, and human development. These are things that would affect the bees atmosphere, food, and habitat.
 
 
 
 
 ## Below are the specifications of the assignment
-
 
 #### Machine Learning Group Project
 
