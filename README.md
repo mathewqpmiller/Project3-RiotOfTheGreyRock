@@ -1,8 +1,8 @@
 # Project3 in Machine Learning and visualizations: Honeybees and pesticides
 # Completed by the group Riot Of The Grey Rock
 
-Project status: in process
-Most models and many visualizations have been created or are well in progress, pending review of models, summaries, and final presentation document.
+Project status: completed with visions of future updates
+Most models and many visualizations, summaries, and final presentation document and been completed.
 
 ## Introduction
 
