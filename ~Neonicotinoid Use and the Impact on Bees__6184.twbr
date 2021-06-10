@@ -2823,7 +2823,7 @@
       <simple-id uuid='{6BB20AA1-078A-4A23-A3B5-A93427BEBC0F}' />
     </dashboard>
   </dashboards>
-  <windows pres-mode='true' source-height='72'>
+  <windows source-height='72'>
     <window class='worksheet' name='all neonics v total production'>
       <cards>
         <edge name='left'>
@@ -3250,7 +3250,7 @@
     </window>
     <window class='dashboard' maximized='true' name='Story 1'>
       <viewpoints />
-      <active id='-1' />
+      <active id='3' />
       <simple-id uuid='{BBAFC341-DA32-4102-85AF-37FF262B0550}' />
     </window>
   </windows>

@@ -2,7 +2,7 @@
 # Completed by the group Riot Of The Grey Rock
 
 Project status: completed with visions of future updates
-Most models and many visualizations, summaries, and final presentation document and been completed.
+Most models and many visualizations, summaries, and final presentation document have been completed.
 
 ## Introduction
 
